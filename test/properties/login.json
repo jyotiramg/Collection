@@ -1,0 +1,10 @@
+{
+    "woolworths_logo" : "div[class='layout-login OSInline']>div>div>div>div>div>img",
+    "enterYourDetails_label" : "div[class='layout-login OSInline']>div>div:nth-child(1)>div>div:nth-child(1)>div:nth-child(2)",
+    "username_label" : "div[class='layout-login OSInline']>div>div:nth-child(1)>div>div:nth-child(2)>div:nth-child(1)>label",
+    "username_textbox": "div[class='layout-login OSInline']>div>div:nth-child(1)>div>div:nth-child(2)>div:nth-child(1)>input",
+    "password_label" : "div[class='layout-login OSInline']>div>div:nth-child(1)>div>div:nth-child(2)>div:nth-child(2)>label",
+    "password_textbox" : "div[class='layout-login OSInline']>div>div:nth-child(1)>div>div:nth-child(2)>div:nth-child(2)>input",
+    "login_button" : "div[class='layout-login OSInline']>div>div:nth-child(1)>div>div:nth-child(4)>input",
+    "forgotPassword_link" : "div[class='layout-login OSInline']>div>div:nth-child(1)>div>div:nth-child(4)>div>a"
+}

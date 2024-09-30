@@ -1,0 +1,8 @@
+{
+    "logo":"div[class='background-warning border-radius-circle padding-y-base OSInline']",
+    "crossSign":"img[class='close-img']",
+    "areYouSureText":"div[class='margin-bottom-xxl']>span[class='heading1']",
+    "warnText":"#wtInformationModal_wtContent_wtcntModalContent > div > div > div:nth-child(3)",
+    "textBox":"div[class='margin-bottom-xxl']>div[id='wtInformationModal_wtContent_wt77_wtFreeTextField']>div>textarea",
+    "proceedButton":"div[id='wtInformationModal_wtContent_wt77_wtSelection_wt697_wtActionButton']>input[class='Button btn-large action-small border-radius-none Is_Default ThemeGrid_Width4']"
+}

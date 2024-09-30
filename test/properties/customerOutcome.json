@@ -1,0 +1,18 @@
+{
+    "customerNotInterestedText" : "div[id='wtInformationModal_wtTitle']>div>span",
+    "crossIcon" : "div[id='wtInformationModal_wtIcon']>a>img",
+    "crossImage" : "div[id='wtInformationModal_wtContent']>div>div>div>div>img",
+    "customerIsNotInterestedLabelText" : "div[id='wtInformationModal_wtContent']>div>div>div>div:nth-child(2)>span",
+    "closeApplicationButton" : "div[id='wtInformationModal_wtContent']>div>div>div>div:nth-child(4)>input",
+    "cannotAffordPlanText" : "div[id='wtInformationModal_wtTitle']>div>span",
+    "closeIcon" :"div[id='wtInformationModal_wtIcon']>a>img",
+    "cannotAffordPlanImageIcon" : "div[id='wtInformationModal_wtContent']>div>div>div>div>img",
+    "customercannotaffordPlanLabelText" : "div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(2)",
+    "cannotAffordCloseApplicationButton" :"div[id='wtInformationModal_wtContent_wt596_wtCloseApplicationButton']>input",
+    "notRightNowText" :"div[id='wt33_wtSidebarLeft_wt232_OutSystemsUIWeb_wt1_block_wtTooltipWrapper']>div>div>a>div>div:nth-child(2)>div",
+    "notRightNowIcon" :"div[id='wt33_wtSidebarLeft_wt232_OutSystemsUIWeb_wt1_block_wtTooltipWrapper']>div>div>a>div>div:nth-child(1)>div",
+    "notRightNowLabelText" :"div[id='wtInformationModal_wtTitle_wtctn_ModalTitle']>span",
+    "customerNotInterestedRightNowText" : "div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(2)>span",
+    "notRightNowCloseIcon" : "div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div>img",
+    "customerOutcomeText" : "div[id='wt33_wtSidebarLeft_wt232_wtCustomerOutcome']>span"
+}

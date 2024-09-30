@@ -1,0 +1,14 @@
+{
+    "profileIcon":"div[class='user-info']>div>div>a",
+    "Wlogo" : "div[id='wt25_OutSystemsUIWeb_wt18_block_wtHeader_wtLeft']>div>img",
+    "collectionTestText" : "div[class='user-info']>div>div>div",
+    "agentNameText" : "div[class='user-info']>div>div>div>div>label",
+    "signOutIcon" : "div[class='user-info']>div>div>div:nth-child(3)>a",
+    "myInfoText" : "div[id='wt25_OutSystemsUIWeb_wt18_block_wtContent']>main>div:nth-child(2)>div:nth-child(1)",
+    "changePasswordLink" : "div[id='wt25_OutSystemsUIWeb_wt18_block_wtContent']>main>div:nth-child(2)>div:nth-child(2)>a",
+    "nameLabelText" : "div[id='wt25_OutSystemsUIWeb_wt18_block_wtContent_wtMainContent']>div>div>table>tbody>tr:nth-child(1)>td:nth-child(1)>span",
+    "nameText" : "div[id='wt25_OutSystemsUIWeb_wt18_block_wtContent_wtMainContent']>div>div>table>tbody>tr:nth-child(1)>td:nth-child(2)",
+    "phoneLabelText" : "div[id='wt25_OutSystemsUIWeb_wt18_block_wtContent_wtMainContent']>div>div>table>tbody>tr:nth-child(2)>td:nth-child(1)>span",
+    "emailLabelText" : "div[id='wt25_OutSystemsUIWeb_wt18_block_wtContent_wtMainContent']>div>div>table>tbody>tr:nth-child(3)>td:nth-child(1)>span",
+    "collectionPortalText" : "div[id='wt25_OutSystemsUIWeb_wt18_block_wtHeader_wtLeft_wt2_wt1']>div"
+}
