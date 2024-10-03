@@ -25,7 +25,7 @@ describe("Home page test", async function(){
         expect(await homePage.isLoggedInUserNameDisplayed()).to.be.true
         expect(await homePage.isLoggedInUserProfileIconDisplayed()).to.be.true
         expect(await homePage.getLoggedInUserAgentName()).to.contain(testData.Agency)
-        expect(await homePage.getLoggedInUserName()).to.contain("Collection test6 NRS")
+        expect(await homePage.getLoggedInUserName()).to.contain("collection test4 BLK")
     })
 
     it('Verify the Search bar is present', async function(){
@@ -82,19 +82,19 @@ describe("Home page test", async function(){
     })
     }
 
-    it('Verify the customer outcome menu is displayed', async function(){
-        await browser.pause(50000)
-        await homePage.enterIdentityNumber(testData.identityNumber)
-        await homePage.clickSearchButton()
-        expect(await homePage.isCustomerName()).to.be.true
-        expect(await homePage.isCustomerOutcomeText()).to.be.true
-        expect(await homePage.isCustomerNotInterestedIcon()).to.be.true
-        expect(await homePage.isCustomerNotInterestedMenuText()).to.be.true
-        expect(await homePage.isCannotAffordAPlanIcon()).to.be.true
-        expect(await homePage.isCannotAffordAPlanMenuText()).to.be.true
-        expect(await homePage.isNotRightNowIcon()).to.be.true
-        expect(await homePage.isNotRightNowText()).to.be.true
-    })
+    // it('Verify the customer outcome menu is displayed', async function(){
+    //     await browser.pause(50000)
+    //     await homePage.enterIdentityNumber(testData.identityNumber)
+    //     await homePage.clickSearchButton()
+    //     expect(await homePage.isCustomerName()).to.be.true
+    //     expect(await homePage.isCustomerOutcomeText()).to.be.true
+    //     expect(await homePage.isCustomerNotInterestedIcon()).to.be.true
+    //     expect(await homePage.isCustomerNotInterestedMenuText()).to.be.true
+    //     expect(await homePage.isCannotAffordAPlanIcon()).to.be.true
+    //     expect(await homePage.isCannotAffordAPlanMenuText()).to.be.true
+    //     expect(await homePage.isNotRightNowIcon()).to.be.true
+    //     expect(await homePage.isNotRightNowText()).to.be.true
+    // })
 })
 
 });

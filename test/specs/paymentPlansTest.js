@@ -1,4 +1,4 @@
-
+ 
 import loginPage from "../pageobjects/loginPage.js"
 import homePage from "../pageobjects/homePage.js"
 import paymentPlans from "../pageobjects/paymentPlans.js"
@@ -19,7 +19,7 @@ describe("Payment Plans table elements", async function(){
 
     it('Verify user is able to login to the application', async function(){
         await loginPage.login("collectiontest4", "12345678")
-        await homePage.enterIdentityNumber("6506140374083")
+        await homePage.enterIdentityNumber("")
         await homePage.clickSearchButton()
         expect(await homePage.isCustomerName()).to.be.true
         if(testData.product == "creditCard"){

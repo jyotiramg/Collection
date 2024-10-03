@@ -22,7 +22,7 @@ export const config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/loginTest.js',
+        './test/specs/**/homePageTest.js',
        // './test/specs/homePageTest.js'
             ],
     // Patterns to exclude.
@@ -129,7 +129,23 @@ export const config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: [['allure', {outputDir: 'allure-results'}]],
+
+
+    // reporters: [['allure', {
+    //     outputDir: 'allure-results',
+    //     disableWebdriverStepsReporting: true,
+    //     disableWebdriverScreenshotsReporting: true,
+    // }]],
+
+    reporters: [
+        ['html-nice', {
+          outputDir: './reports/html-reports',
+          filename: 'report.html',
+          reportTitle: 'Test Report',
+          showInBrowser: true,
+          useOnAfterCommandForScreenshot: true,
+        }],
+      ],
  
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/

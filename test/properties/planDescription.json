@@ -1,0 +1,99 @@
+{
+    "arrearRecovery_css":"div[class='custom-modal-wrapper animate enter-right leave-right']",
+
+    "arrearsRecovery_txt":"div[id='wtInformationModal_wtTitle_wtctn_ModalTitle']>span",
+    "close_img":"img[class='close-img']",
+    "monthlyInstalments_txt":"div[class='modal-body-header-top']>span",
+
+    "monthlyInstalments":{
+        "monthlyInstallments1":"div[id='wtInformationModal_wtContent']>div>div>div>div:nth-child(2)>span>div:nth-child(1)",
+        "monthlyInstalments1_date":"div[id='wtInformationModal_wtContent']>div>div>div>div:nth-child(2)>span>div:nth-child(1)>span:nth-child(1)",
+        "monthlyInstalments1_amount":"div[id='wtInformationModal_wtContent']>div>div>div>div:nth-child(2)>span>div:nth-child(1)>span:nth-child(2)",
+
+        "monthlyInstallments2":"div[id='wtInformationModal_wtContent']>div>div>div>div:nth-child(2)>span>div:nth-child(2)",
+        "monthlyInstalments2_date":"div[id='wtInformationModal_wtContent']>div>div>div>div:nth-child(2)>span>div:nth-child(2)>span:nth-child(1)",
+        "monthlyInstalments2_amount":"div[id='wtInformationModal_wtContent']>div>div>div>div:nth-child(2)>span>div:nth-child(2)>span:nth-child(2)",
+
+        "monthlyInstallments3":"div[id='wtInformationModal_wtContent']>div>div>div>div:nth-child(2)>span>div:nth-child(3)",
+        "monthlyInstalments3_date":"div[id='wtInformationModal_wtContent']>div>div>div>div:nth-child(2)>span>div:nth-child(3)>span:nth-child(1)",
+        "monthlyInstalments3_amount":"div[id='wtInformationModal_wtContent']>div>div>div>div:nth-child(2)>span>div:nth-child(3)>span:nth-child(2)"
+    },
+    "planDescription_header":"div[class='padding-top-xl padding-bottom-base']>span",
+    "planDescription_txt":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(4)",
+
+    "plan_description":{
+            "pd_firstInstallment":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(5)",
+            "pd_firstInstallment_txt":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(5)>span:nth-child(1)",
+            "pd_firstInstallment_amount":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(5)>span:nth-child(2)",
+
+            "pd_lastInstallment":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(6)",
+            "pd_lastInstallment_txt":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(6)>span:nth-child(1)",
+            "pd_lastInstallment_amount":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(6)>span:nth-child(2)",
+
+            "openToBuy":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(7)",
+            "openToBuy_txt":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(7)>span:nth-child(1)",
+            "openToBuy_amount":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(7)>span:nth-child(2)",
+
+            "arrearAmountCleared":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(8)",
+            "arrearAmountCleared_txt":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(8)>span:nth-child(1)",
+            "arrearAmountCleared_amount":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(8)>span:nth-child(2)",
+
+            "reliefPeriod":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(9)",
+            "reliefPeriod_txt":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(9)>span:nth-child(1)",
+            "reliefPeriod_amount":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(9)>span:nth-child(2)",
+
+            "planDuration":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(10)",
+            "planDuration_txt":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(10)>span:nth-child(1)",
+            "planDuration_amount":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(10)>span:nth-child(2)",
+
+            "numberOfInstallments":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(11)",
+            "numberOfInstallments_txt":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(11)>span:nth-child(1)",
+            "numberOfInstallments_amount":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(11)>span:nth-child(2)",
+
+            "noAdverseBureau":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(12)",
+            "noAdverseBureau_txt":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(12)>span",
+            "noAdverseBureau_value":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div>div>div:nth-child(12)>div>img"
+
+    },
+
+    "flexiblePaymentArrangement":{
+
+    "dueDate_txt":"div[id='wtInformationModal_wtFooter_wtcntModalFooter']>div>div>div>span",
+    "due_Date_value":"div[id='wtInformationModal_wtFooter_wtcntModalFooter']>div>div>div>div>span",
+
+    "takeThisPlan_btn":"input[value='Take This Plan']",
+    "flexiblePaymentArrangement_btn":"input[value='Flexible Payment Arrangement']",
+    
+    "flexiblePaymentArrangement_page_css":"div[class='custom-modal-wrapper animate enter-right leave-right']",
+    
+    "flexiblePaymentArrangement_header":"div[id='wtInformationModal_wtTitle']>div>span",
+    "flexiblePaymentArrangements_closebtn":"div[id='wtInformationModal_wtModalWrapper']>div>div>div>div:nth-child(2)>a>img",
+    "howMuchCanYouPay_txt":"div[id='wtInformationModal_wtContent']>div>div>div>div>span",
+    "howMuchCanYouPay_text_box":"div[id='wtInformationModal_wtContent']>div>div>div>div:nth-child(2)>div>div>input",
+    "howMuchCanYouPay_text_box_info":"div[id='wtInformationModal_wtContent']>div>div>div>div:nth-child(2)>div>div:nth-child(2)",
+
+    "firstPayment":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(2)>span>table>tbody>tr:nth-child(1)>td>div:nth-child(1)",
+    "firstPayment_date":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(2)>span>table>tbody>tr:nth-child(1)>td>div:nth-child(1)>div:nth-child(1)",
+    "firstPayment_amount":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(2)>span>table>tbody>tr:nth-child(1)>td>div:nth-child(1)>div:nth-child(2)>span",
+
+    "secondPayment":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(2)>span>table>tbody>tr:nth-child(2)>td>div:nth-child(1)",
+    "secondPayment_date":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(2)>span>table>tbody>tr:nth-child(2)>td>div:nth-child(1)>div:nth-child(1)",
+    "secondPayment_amount":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(2)>span>table>tbody>tr:nth-child(2)>td>div:nth-child(1)>div:nth-child(2)>span",
+
+    "thirdPayment":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(2)>span>table>tbody>tr:nth-child(3)>td>div:nth-child(1)",
+    "thirdPayment_date":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(2)>span>table>tbody>tr:nth-child(3)>td>div:nth-child(1)>div:nth-child(1)",
+    "thirdPayment_amount":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(2)>span>table>tbody>tr:nth-child(3)>td>div:nth-child(1)>div:nth-child(2)>span",
+
+    "monthlyInstallment":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(3)>div>div:nth-child(1)",
+    "monthlyInstallment_txt":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(3)>div>div:nth-child(1)>div:nth-child(1)",
+    "monthlyInstallment_amount":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(3)>div>div:nth-child(1)>div:nth-child(2)>div",
+
+
+    "termDuration":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(3)>div>div:nth-child(2)",
+    "termDuration_txt":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(3)>div>div:nth-child(2)>div:nth-child(1)",
+    "termDuration_terms":"div[id='wtInformationModal_wtContent_wtcntModalContent']>div:nth-child(3)>div>div:nth-child(2)>div:nth-child(2)>div>span",
+
+   "dueDate":"div[class='custom-modal-wrapper animate enter-right leave-right']>div:nth-child(3)>div>div>div>div>div>span"
+    }
+    
+}

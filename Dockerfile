@@ -1,21 +1,30 @@
-# Use the official Node.js image as the base image
-FROM node:18-alpine
+# Use the official Node.js image as a base
+FROM node:18
 
 # Set the working directory
 WORKDIR /app
 
-# Copy the package.json and package-lock.json (if available)
+# Copy package files and install dependencies
 COPY package*.json ./
-
-# Install dependencies
 RUN npm install
 
-# Copy the rest of the application code
+# Install Chrome and ChromeDriver
+RUN apt-get update && \
+    apt-get install -y wget gnupg2 && \
+    wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - && \
+    echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list && \
+    apt-get update && \
+    apt-get install -y google-chrome-stable && \
+    npm install chromedriver
+
+# Install wdio-html-nice-reporter
+RUN npm install wdio-html-nice-reporter --save-dev
+
+# Copy the rest of your test files
 COPY . .
 
-# Set environment variables for Chrome and Firefox binary paths
-ENV CHROME_BIN=/usr/bin/chromium-browser
-ENV FIREFOX_BIN=/usr/bin/firefox
+# Set environment variable for ChromeDriver
+ENV CHROMEDRIVER_VERSION=latest
 
-# Run WebdriverIO tests
-CMD ["npx", "wdio", "run", "wdio.conf.js"]
+# Command to run your tests and generate HTML report
+CMD ["npx", "wdio", "wdio.conf.js"]

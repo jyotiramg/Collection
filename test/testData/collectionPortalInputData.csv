@@ -1,7 +1,7 @@
 Collectionportalinputdata,,,,,,,,,,
 Agency,Scenario,UserName,Password,identityNumber,accountNumber,product,customerName,,,
-Blake & Associates,accountNumber,Collectiontest1,12345678,8505241169085,6007852100871700,Store Card,Lindiwe Matiti Gumede,,,
-Blake & Associates,accountNumber,Collectiontest1,12345678,8506050976081,4103759534083181,Credit Card,David Jacobus,Collectionportalinputdata,,
+Blake & Associates,identityNumber,Collectiontest4,12345678,8505241169085,6007852100871700,Store Card,Lindiwe Matiti Gumede,,,
+Blake & Associates,VIP Plan Description,Collectiontest4,12345678,7301030523083,6007851105681550,Personal Loan,Eunice Sibongile Mngwengwe,Collectionportalinputdata,,
 ,,,,,,,,,,
 ,,,,,,,,,,
 Collectionportalsecurityquestion,,,,,,,,,,
@@ -42,3 +42,7 @@ Fusion credit solutions,security question,Collectiontest1,12345678,8509191593088
 Fusion credit solutions,security question,Collectiontest1,12345678,8509191593088,6007852100836930,Store Card,Wandile Sihle,My income has been substantially reduced,Another reason,
 Fusion credit solutions,security question,Collectiontest1,12345678,8509191593088,6007852100836930,Store Card,Wandile Sihle,I did not receive my statement,Another reason,
 Fusion credit solutions,security question,Collectiontest1,12345678,8509191593088,6007852100836930,Store Card,Wandile Sihle,I could not go to the store to pay,Another reason,Collectionportalsecurityquestion
+,,,,,,,,,,
+CollectionPortalPlanDescription,,,,,,,,,,
+Agency,Scenario,UserName,Password,identityNumber,accountNumber,product,customerName,planType,plan,
+Blake & Associates,VIP Plan Description,Collectiontest4,12345678,7301030523083,6007851105681550,personalLoan,Eunice Sibongile Mngwengwe,VIP,ArrearsRecovery,CollectionPortalPlanDescription

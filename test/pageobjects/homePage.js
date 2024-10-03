@@ -354,6 +354,7 @@ class homePage{
     }
 
     async clickPersonalLoanMenu(){
+        await utils.waitForElement(this.personalLoanMenu)
         await utils.clickElement(this.personalLoanMenu)
     }
 

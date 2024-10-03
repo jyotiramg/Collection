@@ -25,6 +25,7 @@ class paymentPlans{
     get positiveBureau() {return $(objects.positiveBureau)}
     get planItemDescription() {return $(objects.planItemDescription)}
     get arrearsRecoveryText() {return $(objects.arrearsRecoveryText)}
+    get arrearsRecoveryLink() {return $(objects.arrearsRecoveryLink)}
     get monthNumber() {return $(objects.monthNumber)}
     get monthsText() {return $(objects.monthsText)}
     get firstInstallmentAmount() {return $(objects.firstInstallmentAmount)}
@@ -255,6 +256,11 @@ class paymentPlans{
         let text = await utils.getElementText(this.arrearsRecoveryText)
         return text
     }
+
+    async clickArrearsRecoveryLink(){
+        await utils.clickElement(this.arrearsRecoveryLink)
+    }
+
 
     async isMonthNumber(){
         await utils.waitForElement(this.monthNumber)
@@ -491,6 +497,11 @@ class paymentPlans{
     async getFlexiblePaymentArrangementPlanButton(){
         let text = await utils.getElementText(this.flexiblePaymentArrangementPlanButton)
         return text
+    }
+
+    async clickFlexiblePaymentArrangementPlanButton(){
+        await utils.waitForElement(this.flexiblePaymentArrangementPlanButton)
+        await utils.clickElement(this.flexiblePaymentArrangementPlanButton)
     }
 
     async isNewPlansList(){
