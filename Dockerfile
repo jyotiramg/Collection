@@ -8,6 +8,9 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
+# Install wdio-html-nice-reporter
+RUN npm install wdio-html-nice-reporter --save-dev
+
 # Install Chrome and ChromeDriver
 RUN apt-get update && \
     apt-get install -y wget gnupg2 && \
@@ -15,16 +18,10 @@ RUN apt-get update && \
     echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list && \
     apt-get update && \
     apt-get install -y google-chrome-stable && \
-    npm install chromedriver
+    npm install chromedriver --save-dev
 
-# Install wdio-html-nice-reporter
-RUN npm install wdio-html-nice-reporter --save-dev
-
-# Copy the rest of your test files
+# Copy the rest of your application and test files
 COPY . .
 
-# Set environment variable for ChromeDriver
-ENV CHROMEDRIVER_VERSION=latest
-
-# Command to run your tests and generate HTML report
+# Command to run your tests
 CMD ["npx", "wdio", "wdio.conf.js"]
